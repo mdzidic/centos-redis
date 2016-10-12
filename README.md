@@ -2,6 +2,8 @@
 
 A Docker image for [Redis](http://redis.io/), based on [CentOS 7](https://www.centos.org/).
 
+## What is Redis?
+
 ## Features
 
 This image features:
@@ -12,4 +14,17 @@ This image features:
 
 ## Usage
 
-To use this image first build this Dockerfile with this command **`docker build --rm=true -t mdzidic/centos-redis .`** and simply run container executing **`docker run --name redis mdzidic/centos-redis`** .
+To use this image first build this Dockerfile with this command:  
+`docker build --rm=true -t mdzidic/centos-redis .`  
+or You can pull the prebuilt image from the Docker Hub Registry:  
+
+`docker pull mdzidic/centos-redis:latest`  
+
+To run container in background use this command:  
+`docker run -d --name redis mdzidic/centos-redis`  
+
+## Docker Compose
+```yaml
+redis:
+  image: mdzidic/centos-redis:latest
+  ```
