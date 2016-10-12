@@ -10,7 +10,7 @@ Redis is an advanced key-value cache and store. It is often referred to as a dat
 
 This image features:
 
-- [CentOS Linux](https://github.com/centos) (latest version 7.x)
+- [CentOS Linux](https://github.com/centos) (latest version)
 - [Redis](https://github.com/antirez/redis-io) (version 3.2.4)
 - [Gosu](https://github.com/tianon/gosu) (version 1.9)
 
