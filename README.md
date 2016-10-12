@@ -20,7 +20,6 @@ To use this image first build this Dockerfile with this command:
 `docker build --rm=true -t mdzidic/centos-redis .`  
 
 or You can pull the prebuilt image from the Docker Hub Registry:  
-
 `docker pull mdzidic/centos-redis:latest`  
 
 To run container in background use this command:  
