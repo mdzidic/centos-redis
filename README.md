@@ -3,14 +3,15 @@
 A Docker image for [Redis](http://redis.io/), based on [CentOS 7](https://www.centos.org/).
 
 ## What is Redis?
+Redis is an advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.  
 
 ## Features
 
 This image features:
 
-- [CentOS Linux](https://github.com/centos) v7
-- [Redis](https://github.com/antirez/redis-io) v3.2.4
-- [Gosu](https://github.com/tianon/gosu) v1.9
+- [CentOS Linux](https://github.com/centos) (latest version 7.x)
+- [Redis](https://github.com/antirez/redis-io) (version 3.2.4)
+- [Gosu](https://github.com/tianon/gosu) (version 1.9)
 
 ## Usage
 
