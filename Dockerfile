@@ -2,7 +2,7 @@ FROM centos:centos7
 
 # Basics
 RUN yum -y install epel-release
-RUN yum -y install wget curl vim tar gcc tcl
+RUN yum -y install wget curl vim tar make gcc tcl
 
 # TERM fix
 RUN echo "export TERM=xterm" >> ~/.bashrc
