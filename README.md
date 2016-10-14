@@ -1,5 +1,7 @@
 # centos-redis
 [![Shippable](https://img.shields.io/badge/docker_build-automated-blue.svg)](https://hub.docker.com/r/mdzidic/centos-redis/)
+[![](https://images.microbadger.com/badges/image/mdzidic/centos-redis.svg)](https://microbadger.com/images/mdzidic/centos-redis)
+[![](https://images.microbadger.com/badges/license/mdzidic/centos-redis.svg)](https://microbadger.com/images/mdzidic/centos-redis)
 
 A Docker image for [Redis](http://redis.io/), based on [CentOS 7](https://www.centos.org/).
 
