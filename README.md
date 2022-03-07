@@ -3,6 +3,8 @@
 [![](https://images.microbadger.com/badges/image/mdzidic/centos-redis.svg)](https://microbadger.com/images/mdzidic/centos-redis)
 [![](https://images.microbadger.com/badges/license/mdzidic/centos-redis.svg)](https://microbadger.com/images/mdzidic/centos-redis)
 
+**NOTE: centos-redis is a relatively old project, official [Redis Docker image](https://hub.docker.com/_/redis) has evolved a lot since my last commit. As such, I've archived this repository.**
+
 A Docker image for [Redis](http://redis.io/), based on [CentOS 7](https://www.centos.org/).
 
 ## What is Redis?
